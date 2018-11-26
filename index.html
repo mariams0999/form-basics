@@ -12,22 +12,39 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1>Form On Random Things</h1>
         <hr>
         <form action="http://www.w3schools.com/action_page.php" method="get">
 
             Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            <input type="text" name="name" required><br> E-mail:
+            <input type="email" name="email" required><br>
 
             <!--add your own inputs below-->
-
-
-
-
-
-
-
+            School:
+            <input type="text" name="school" required> <br>
+            Phone #:
+            <input type="tel" name="phone" placeholder="phone"> <br>
+            Favorite Food:
+            <input type="text" name="food"><br> 
+            Did you know that the average human body carries ten times more bacterial cells than human cells?<br>
+            <input type="radio" name="fact" value="yes"> Yes
+            <input type="radio" name="fact" value="No"> No <br>
+            
+            What Science Class do you have? <br>
+            <select name="Science Class">
+                <option value="AP Biology" selected> AP Biology </option>
+                <option value="AP Chemistry" selected> AP Chemistry </option>
+                <option value="AP Physics" selected> AP Physics </option>
+                <option value="Chemistry" selected> Chemistry
+                </option>
+                <option value="Earth Science" selected> Earth Science </option>
+                <option value="Living Environment" selected> Living Environment </option>
+                <option value="Physics" selected> Physics </option>
+            </select> <br>
+            
+            What are your thoughts on Global Warming? <br>
+            <textarea name="message">Thoughts on Global Warming</textarea> <br>
 
             <!--add your own inputs above-->
 
